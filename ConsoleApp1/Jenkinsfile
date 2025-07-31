@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/kyzov/test'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Сборка (если нужна)'
+                bat 'cd ConsoleApp1 && dotnet build'
+            }
+        }
+        
+        stage('Test'){
+            steps{
+                echo 'Тесты'
+                bat 'cd ConsoleApp1 && dotnet test'
+            }
+        }
+        
+        stage('Run') {
+            steps {
+                echo 'Запуск программы'
+                bat 'cd ConsoleApp1/ConsoleApp1 && dotnet run'
+            }
+        }
+    }
+}
