@@ -1,9 +1,9 @@
 // CalculatorTests.cs
 using NUnit.Framework;
 using System;
-using CalculatorApp;
+using ConsoleApp1;
 
-namespace CalculatorApp.Tests
+namespace TestProject1
 {
     [TestFixture]
     public class CalculatorTests
