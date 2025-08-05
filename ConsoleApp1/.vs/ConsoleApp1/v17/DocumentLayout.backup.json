@@ -28,9 +28,10 @@
               "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\vladm\\source\\repos\\GHub\\test\\ConsoleApp1\\TestProject1\\UnitTest1.cs",
               "RelativeToolTip": "TestProject1\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T12:53:13.56Z"
+              "WhenOpened": "2025-07-31T12:53:13.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Сборка (если нужна)'
+                echo 'Сборка'
                 bat 'cd ConsoleApp1 && dotnet build'
             }
         }
